@@ -30,6 +30,125 @@
             <p class="text-base sm:text-lg">meu salário</p>
         </div>
 
+        <div></div>
+
+    </header>
+
+    <section class="flex items-center justify-center px-4 py-12 md:px-8 md:py-24 lg:px-16 lg:py-32">
+        <div
+            class="w-full max-w-2xl bg-gray-600/70 border-2 border-red-900 rounded-lg shadow-2xl p-6 sm:p-10 text-center text-amber-100">
+            <h2 class="font-titulo font-bold text-2xl text-amber-100">SOBRE OS LEGENDÁRIOS</h2>
+            <p>No Legendários, unimos a solidez técnica do Direito à agilidade que o mundo moderno
+                exige. Mais do que representar interesses, nosso compromisso é oferecer clareza e soluções estratégicas
+                para proteger o que é mais importante para você ou sua empresa</p>
+
+            <h2 class="font-titulo font-bold text-2xl text-amber-100 mt-6">NOSSA MISSÃO</h2>
+            <p>Prestar serviços jurídicos de excelência, pautados na ética, na transparência e na busca por soluções
+                sob medida. Atuamos de forma humanizada e estratégica para transformar conflitos em segurança e
+                viabilizar projetos de vida e de negócios</p>
+        </div>
+    </section>
+
+
+    <section class="px-4 py-12 md:py-20">
+
+        <h2 class="text-center font-titulo font-bold text-3xl sm:text-4xl uppercase text-amber-100">
+            Nossos serviços
+        </h2>
+
+        <div class="mt-10 flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
+
+            <div class="flex-1 min-w-[16rem] max-w-sm bg-gray-600/50 backdrop-blur-sm
+                        border-2 border-red-900 rounded-lg shadow-2xl p-6 text-center text-amber-100">
+                <h3 class="font-titulo font-bold text-xl">Direito trabalhista</h3>
+                <p class="mt-3 font-corpo leading-relaxed">seu problema no trabalho resolvido sem trabalho nenhum.</p>
+            </div>
+
+            <div class="flex-1 min-w-[16rem] max-w-sm bg-gray-600/50 backdrop-blur-sm
+                        border-2 border-red-900 rounded-lg shadow-2xl p-6 text-center text-amber-100">
+                <h3 class="font-titulo font-bold text-xl">Direito do consumidor</h3>
+                <p class="mt-3 font-corpo leading-relaxed">seu problema como consumidor resolvido sem dor .</p>
+            </div>
+
+            <div class="flex-1 min-w-[16rem] max-w-sm bg-gray-600/50 backdrop-blur-sm
+                        border-2 border-red-900 rounded-lg shadow-2xl p-6 text-center text-amber-100">
+                <h3 class="font-titulo font-bold text-xl">Direito de família</h3>
+                <p class="mt-3 font-corpo leading-relaxed">seu problema na família resolvido sem intriga.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="px-4 py-12 md:py-20">
+
+        <h2 class="text-center font-titulo font-bold text-3xl sm:text-4xl uppercase text-amber-100">
+            Área do cliente
+        </h2>
+
+        <div class="mt-10 flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
+
+            <div class="flex-1 min-w-[18rem] max-w-md bg-gray-600/50 backdrop-blur-sm
+                        border-2 border-red-900 rounded-lg shadow-2xl p-6 sm:p-8 text-amber-100">
+                <h3 class="font-titulo font-bold text-xl text-center">Login</h3>
+
+                <form class="mt-6 flex flex-col gap-4 font-corpo">
+                    <div class="flex flex-col gap-1">
+                        <label for="email" class="text-sm">E-mail</label>
+                        <input id="email" type="email" required placeholder="seu@email.com" class="rounded bg-gray-800/70 border border-amber-100/30 px-3 py-2
+                                   placeholder:text-amber-100/40 focus:outline-none focus:border-amber-100">
+                    </div>
+
+                    <div class="flex flex-col gap-1">
+                        <label for="senha" class="text-sm">Senha</label>
+                        <input id="senha" type="password" required placeholder="••••••••" class="rounded bg-gray-800/70 border border-amber-100/30 px-3 py-2
+                                   placeholder:text-amber-100/40 focus:outline-none focus:border-amber-100">
+                    </div>
+
+                    <button type="submit"
+                        class="mt-2 rounded bg-red-900 hover:bg-red-800 px-6 py-3 font-medium transition">
+                        Entrar
+                    </button>
+                </form>
+            </div>
+
+            <div class="flex-1 min-w-[18rem] max-w-md bg-gray-600/50 backdrop-blur-sm
+                        border-2 border-red-900 rounded-lg shadow-2xl p-6 sm:p-8 text-amber-100">
+                <h3 class="font-titulo font-bold text-xl text-center">Consulta de processo</h3>
+
+                <form class="mt-6 flex flex-col gap-4 font-corpo">
+                    <div class="flex flex-col gap-1">
+                        <label for="processo" class="text-sm">Número do processo</label>
+                        <input id="processo" type="text" inputmode="numeric" required
+                            placeholder="0000000-00.0000.0.00.0000" class="rounded bg-gray-800/70 border border-amber-100/30 px-3 py-2
+                                   placeholder:text-amber-100/40 focus:outline-none focus:border-amber-100">
+                    </div>
+
+                    <button type="submit"
+                        class="mt-2 rounded bg-red-900 hover:bg-red-800 px-6 py-3 font-medium transition">
+                        Consultar
+                    </button>
+
+                    <p class="text-sm text-center text-amber-100/70">
+                        Digite o número no padrão do CNJ para ver o andamento.
+                    </p>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="flex flex-col items-center gap-4 px-4 py-6 border-t-2 border-red-900 bg-gray-600
+               md:grid md:grid-cols-3 md:items-start md:px-8">
+
+        <div class="hidden md:block"></div>
+
+        <div class="text-amber-100 text-center order-1 md:order-none">
+            <p class="text-4xl sm:text-5xl lg:text-6xl font-titulo font-bold">Legendário</p>
+            <p class="text-base sm:text-lg">seu problema</p>
+            <p class="text-base sm:text-lg">meu salário</p>
+        </div>
 
         <div class="flex flex-col items-center gap-1 font-corpo text-amber-100 order-2
                     md:items-end md:text-right md:order-none">
@@ -38,7 +157,7 @@
             <a href="">instagram</a>
         </div>
 
-    </header>
+    </footer>
 
 </body>
 
